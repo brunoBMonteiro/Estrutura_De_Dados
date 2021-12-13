@@ -77,6 +77,42 @@ public class Vetor {
         return s.toString();
     }
 
+    // Método de busca por posição do vetor
+    public String busca(int posicao){
+        if (!(posicao >= 0 && posicao < tamanho)){
+            throw new IllegalArgumentException("Posição inválida!");
+        }
+        return this.elementos[posicao];
+    }
+
+    // verifica se o elemento existe, e sobrecarregando método
+    public boolean busca(String elemento){
+        for (int i = 0; i<this.tamanho; i++){
+            if(this.elementos[i].equals(elemento)){
+                return true;
+            }
+        }
+        return false;
+    }
 
 
+    // Adicionar em posição especifica do vetor
+
+    // 0 1 2 3 4 5 6 = tamanho é 5
+    // B C E F G + +
+
+    public boolean adicionaEmPosicaoEspecifica(int posicao, String elemento){
+        if (!(posicao >= 0 && posicao < tamanho)){
+            throw new IllegalArgumentException("Posição inválida!");
+        }
+
+        // mover todos elementos
+        for(int i=this.tamanho-1; i>posicao; i--){
+            this.elementos[i+1] = this.elementos[i];
+        }
+        this.elementos[posicao] = elemento;
+        this.tamanho++;
+
+        return true;
+    }
 }
