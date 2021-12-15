@@ -5,7 +5,7 @@ import java.util.Vector;
 
 public class Teste {
     public static void main(String[] args) {
-        Vetor vetor = new Vetor(15);
+        Vetor vetor = new Vetor(10);
 
         /*
         vetor.adiciona("Elemento na 0");
@@ -33,7 +33,7 @@ public class Teste {
 
         // Adicionando elementos no vetor
         // Adicionando elementos em posições aleatórias do vetor
-        System.out.println("=============================");
+        System.out.println("=================================");
 
         vetor.adiciona("B");
         vetor.adiciona("C");
@@ -45,7 +45,7 @@ public class Teste {
 
         vetor.adicionaEmPosicaoEspecifica(0, "A");
         System.out.println(vetor);
-        System.out.println("=============================");
+        System.out.println("================================");
 
         vetor.adicionaEmPosicaoEspecifica(1, "B");
         vetor.adicionaEmPosicaoEspecifica(2, "C");
@@ -53,5 +53,10 @@ public class Teste {
         vetor.adicionaEmPosicaoEspecifica(4, "E");
         vetor.adicionaEmPosicaoEspecifica(5, "F");
         System.out.println(vetor);
+
+        System.out.println("================================");
+
+        System.out.println(vetor.tamanho());
+
     }
 }

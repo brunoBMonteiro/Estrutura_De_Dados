@@ -1,0 +1,11 @@
+
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(«”­
+V	java:S125"<This block of commented-out lines of code should be removed.(™‹›ııÿÿÿÿ
+M	java:S106,"9Replace this use of System.out or System.err by a logger.(ç¢1
+M	java:S106/"9Replace this use of System.out or System.err by a logger.(ç¢1
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(‹ñõ’
+M	java:S1067"9Replace this use of System.out or System.err by a logger.(ç¢1
+N	java:S1069"9Replace this use of System.out or System.err by a logger.(‹ñõ’
+N	java:S106;"9Replace this use of System.out or System.err by a logger.(­è„
+H
+java:S1128"-Remove this unused import 'java.util.Vector'.(ÿŒ¸Áÿÿÿÿÿ

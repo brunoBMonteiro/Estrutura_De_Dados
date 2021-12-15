@@ -1,0 +1,13 @@
+
+V	java:S125"<This block of commented-out lines of code should be removed.(ÁÅÀ‰úÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(ÿà£é
+V	java:S125("<This block of commented-out lines of code should be removed.(ñ½¹Äüÿÿÿÿ
+Q	java:S1254"<This block of commented-out lines of code should be removed.(ÉàúÑ
+Q	java:S125<"<This block of commented-out lines of code should be removed.(Á»›ê
+Q	java:S125B"<This block of commented-out lines of code should be removed.(Á»›ê
+t
+java:S3012["YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(¥ÚŠÇùÿÿÿÿ
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
+p
+java:S1192d"UDefine a constant instead of duplicating this literal "PosiÃ§Ã£o invÃ¡lida!" 3 times.(ŠòŠÕùÿÿÿÿ
