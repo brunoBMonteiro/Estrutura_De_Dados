@@ -34,7 +34,7 @@ public class Lista<T> {
 
     private void aumentaCapacidade() {
         if (this.tamanho == this.elementos.length){
-            T[] elementosNovos = (T[]) new Object[this.elementos.length * 2]
+            T[] elementosNovos = (T[]) new Object[this.elementos.length * 2];
                     for(int i = 0; i < this.elementos.length; i++){
                         elementosNovos[i] = this.elementos[i];
                     }
