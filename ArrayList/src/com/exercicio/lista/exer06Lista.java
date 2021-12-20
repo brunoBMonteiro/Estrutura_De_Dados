@@ -17,8 +17,9 @@ public class exer06Lista {
         // Criar um menu para que o usuário escolha a opção
 
     }
-    private static void criarContatoDinamicamente(int quantidade, Lista<Contato> lista){
-        for (int i = 0; i < quantidade; i++){
+
+    private static void criarContatoDinamicamente(int quantidade, Lista<Contato> lista) {
+        for (int i = 0; i < quantidade; i++) {
             Contato contato = new Contato();
 
         }

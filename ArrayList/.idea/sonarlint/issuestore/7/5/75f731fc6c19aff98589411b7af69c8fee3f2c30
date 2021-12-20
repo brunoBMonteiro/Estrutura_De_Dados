@@ -1,0 +1,20 @@
+
+O
+java:S1854"9Remove this useless assignment to local variable "lista".(˜€Ää
+T
+java:S1854	"9Remove this useless assignment to local variable "input".(Úî¿òøÿÿÿÿ
+E
+java:S1481	"*Remove this unused "input" local variable.(Úî¿òøÿÿÿÿ
+@
+java:S1481"*Remove this unused "lista" local variable.(˜€Ää
+Q
+java:S1854";Remove this useless assignment to local variable "contato".(ÓëÜ³
+B
+java:S1172",Remove this unused method parameter "lista".(ü­ú§
+B
+java:S1481",Remove this unused "contato" local variable.(ÓëÜ³
+T
+java:S1144">Remove this unused private "criarContatoDinamicamente" method.(ü­ú§
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(˜€Ää
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ýž…í
