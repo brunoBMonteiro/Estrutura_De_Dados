@@ -10,7 +10,7 @@ public class Ex02 {
         Stack<Integer> par = new Stack<Integer>();
         Stack<Integer> impar = new Stack<Integer>();
 
-        for(int i = 0; i <= 10; i++){
+        for(int i = 1; i <= 10; i++){
             System.out.println("Digite um numero : ");
             int numberEntry = input.nextInt();
 
@@ -41,6 +41,7 @@ public class Ex02 {
                 System.out.println("o numero é impar " + numberEntry);
                 impar.pop();
             }
+
         }
 
         System.out.println("Desempilhando todos os números da pilha par");
